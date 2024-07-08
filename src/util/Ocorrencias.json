@@ -1,0 +1,82 @@
+{
+  "data1": {
+    "geolocalizacao": "-8.0476,-34.8770",
+    "cidade": "Recife",
+    "bairro": "Santo Amaro",
+    "descricao": "Um pedestre foi abordado e teve seus pertences roubados.",
+    "dataHoraOcorrencia": "2023-02-12",
+    "hora": "08:45",
+    "usuarioId": 43,
+    "categoriaId": 2
+  },
+  "data2": {
+    "geolocalizacao": "-8.0543,-34.8813",
+    "cidade": "Recife",
+    "bairro": "Santo Amaro",
+    "descricao": "Uma residência foi invadida e alguns objetos foram furtados.",
+    "dataHoraOcorrencia": "2023-05-21",
+    "hora": "15:20",
+    "usuarioId": 45,
+    "categoriaId": 28
+  },
+  "data3": {
+    "geolocalizacao": "-8.0406,-34.9432",
+    "cidade": "Recife",
+    "bairro": "Várzea",
+    "descricao": "Um tiroteio resultou em uma vítima fatal nas proximidades de um bar.",
+    "dataHoraOcorrencia": "2023-08-03",
+    "hora": "23:10",
+    "usuarioId": 47,
+    "categoriaId": 3
+  },
+  "data4": {
+    "geolocalizacao": "-7.9872,-34.8390",
+    "cidade": "Olinda",
+    "bairro": "Casa Caiada",
+    "descricao": "Um estabelecimento comercial foi assaltado por indivíduos armados.",
+    "dataHoraOcorrencia": "18/09/2023",
+    "hora": "19:30",
+    "usuarioId": 43,
+    "categoriaId": 27
+  },
+  "data5": {
+    "geolocalizacao": "-8.0205,-34.9286",
+    "bairro": "Alto do Mandu",
+    "cidade": "Recife",
+    "descricao": "Um veículo teve os vidros quebrados em um estacionamento público.",
+    "dataHoraOcorrencia": "09/04/2023",
+    "hora": "13:40",
+    "usuarioId": 45,
+    "categoriaId": 6
+  },
+  "data6": {
+    "geolocalizacao": "-8.0422,-34.9363",
+    "bairro": "Iputinga",
+    "cidade": "Recife",
+    "descricao": "Um celular foi furtado em um ponto de ônibus movimentado.",
+    "dataHoraOcorrencia": "15/07/2023",
+    "hora": "11:15",
+    "usuarioId": 47,
+    "categoriaId": 28
+  },
+  "data7": {
+    "geolocalizacao": "-8.0368,-34.9342",
+    "bairro": "Iputinga",
+    "cidade": "Recife",
+    "descricao": "Um grupo de pessoas foi assaltado em uma praça durante a noite.",
+    "dataHoraOcorrencia": "29/10/2023",
+    "hora": "20:50",
+    "usuarioId": 43,
+    "categoriaId": 2
+  },
+  "data8": {
+    "geolocalizacao": "-7.9895,-34.8390",
+    "cidade": "Olinda",
+    "bairro": "Casa Caiada",
+    "descricao": "Um crime violento resultou na morte de um jovem próximo a uma escola.",
+    "dataHoraOcorrencia": "05/11/2023",
+    "hora": "01:30",
+    "usuarioId": 45,
+    "categoriaId": 3
+  }
+}

@@ -1,0 +1,31 @@
+# Set the image
+FROM vm/ubuntu:22.04
+
+MEMORY 2G
+#RUN sudo apt install -y unattended-upgrades
+#RUN sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq openssh-server
+
+#RUN sudo apt-mark hold openssh-server
+
+#RUN sed -i "/#\$nrconf{restart} = 'i';/s/.*/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf
+#RUN sudo apt update && sudo apt --assume-yes upgrade
+RUN curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+RUN sudo apt install -y nodejs
+RUN sudo npm install npm@latest -g
+
+ENV NODE_OPTIONS=--max-old-space-size=8192
+
+COPY . .
+
+RUN rm package-lock.json
+
+RUN npm install
+
+SECRET ENV beyondwhatmeetstheeyeisasafetynetforeveryone
+RUN echo "$beyondwhatmeetstheeyeisasafetynetforeveryone" | base64 -d > ~/.env
+
+RUN npm run build
+
+RUN BACKGROUND npm run preview
+
+EXPOSE WEBSITE localhost:5173

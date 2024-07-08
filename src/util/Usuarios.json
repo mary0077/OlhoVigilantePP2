@@ -1,0 +1,72 @@
+{
+  "data1": {
+    "nome": "João da Silva",
+    "cidade": "Recife",
+    "bairro": "Boa Viagem",
+    "email": "joao.silva@email.com",
+    "cpf": "123.456.789-10",
+    "password": "senha123",
+    "senha": "senha123",
+    "confirmaSenha": "senha123"
+  },
+  "data2": {
+    "nome": "Maria Oliveira",
+    "cidade": "Olinda",
+    "bairro": "Casa Caiada",
+    "email": "maria.oliveira@email.com",
+    "cpf": "987.654.321-00",
+    "password": "outrasenha",
+    "senha": "outrasenha",
+    "confirmaSenha": "outrasenha"
+  },
+  "data3": {
+    "nome": "Pedro Santos",
+    "cidade": "Paulista",
+    "bairro": "Janga",
+    "email": "pedro.santos@email.com",
+    "cpf": "567.890.123-45",
+    "password": "minhasenha",
+    "senha": "minhasenha",
+    "confirmaSenha": "minhasenha"
+  },
+  "data4": {
+    "nome": "Ana Souza",
+    "cidade": "Recife",
+    "bairro": "Ipsep",
+    "email": "ana.souza@email.com",
+    "cpf": "234.567.890-12",
+    "password": "outrasenha2",
+    "senha": "outrasenha2",
+    "confirmaSenha": "outrasenha2"
+  },
+  "data5": {
+    "nome": "José Oliveira",
+    "cidade": "Jaboatão dos Guararapes",
+    "bairro": "Piedade",
+    "email": "jose.oliveira@email.com",
+    "cpf": "654.321.098-76",
+    "password": "senha1234",
+    "senha": "senha1234",
+    "confirmaSenha": "senha1234"
+  },
+  "data6": {
+    "nome": "Mariana Silva",
+    "cidade": "Recife",
+    "bairro": "Derby",
+    "email": "mariana.silva@email.com",
+    "cpf": "345.678.901-23",
+    "password": "novasenha",
+    "senha": "novasenha",
+    "confirmaSenha": "novasenha"
+  },
+  "data7": {
+    "nome": "Rafael Pereira",
+    "cidade": "Camaragibe",
+    "bairro": "Vila da Fábrica",
+    "email": "rafael.pereira@email.com",
+    "cpf": "876.543.210-98",
+    "password": "senha12345",
+    "senha": "senha12345",
+    "confirmaSenha": "senha12345"
+  }
+}
