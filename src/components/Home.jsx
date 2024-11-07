@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./Header/Header";
 import { Footer } from "../Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <div className="flex flex-col min-h-screen">
         {/* Barra de Navegação */}
         <div className="">
@@ -26,11 +27,11 @@ const Home = () => {
                     segurança em suas comunidades.
                   </p>
 
-                  <a href="/cadastro">
+                  <Link to="/cadastro">
                     <button className="bg-black text-white font-bold py-5 px-9 flex items-center rounded">
                       CADASTRE-SE
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

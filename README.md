@@ -2,6 +2,7 @@
 
 Front end do projeto Olho Vigilante
 
+<img src="./public/olhovigi.png" alt="screenshot do projeto">
 
 # Informações parciais para teste do projeto
 

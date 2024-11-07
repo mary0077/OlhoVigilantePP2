@@ -115,7 +115,7 @@ function Login() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <div className="container flex flex-wrap mt-20 items-center">
         <div className="flex">
           <div

@@ -7,17 +7,17 @@ const navMenuItems = [
   {
     icon: "/icon-inicio.svg",
     text: "Início",
-    link: "/",
+    link: "inicio",
   },
   {
     icon: "/icon-ocorrencias.svg",
     text: "Ocorrências",
-    link: "/ocorrencia",
+    link: "ocorrencia",
   },
   {
     icon: "/icon-comunidade.svg",
     text: "Comunidade",
-    link: "/comunidade",
+    link: "comunidade",
   },
   /* {
     icon: "/icon-megaphone2.svg",
@@ -29,23 +29,23 @@ const navUserBtns = [
   {
     icon: "/icon-usuario.svg",
     text: "Perfil",
-    link: "/perfil",
+    link: "perfil",
     loggedOnly: true,
   },
   {
-    icon: "btn-entrar.svg",
+    icon: "/btn-entrar.svg",
     //text: "",
     link: "/login",
     loggedOnly: false,
   },
   {
-    icon: "btn-cadastrar.svg",
+    icon: "/btn-cadastrar.svg",
     // text: "",
     link: "/cadastro",
     loggedOnly: false,
   },
   {
-    icon: "icon-logout.svg",
+    icon: "/icon-logout.svg",
     text: "Sair",
     //link: "/logout",
     loggedOnly: true,
@@ -100,7 +100,7 @@ const Header = () => {
                     src={
                       /* activeUrl == elem.link */
                       isUrlActive(elem)
-                        ? elem.icon.slice(0, -4) + "-active.svg"
+                        ? elem.icon.slice(0, -4) + "/-active.svg"
                         : elem.icon
                     }
                     alt=""
@@ -117,7 +117,7 @@ const Header = () => {
             <div className="userButtons flex gap-6">
               {/* <div className="flex"> */}
               <Link
-                to={"/perfil"}
+                to={"perfil"}
                 className="flex font-sora text-white flex-col"
               >
                 <img
@@ -180,11 +180,11 @@ const Header = () => {
           /* !userState */ !isUserLoggedIn() && (
             <div className="userButtons flex gap-6">
               <Link to={navUserBtns[1].link} className="self-center ">
-                <img src={navUserBtns[1].icon} alt="" />
+                <img src={navUserBtns[1].icon} alt=""/>
                 <p>{navUserBtns[1].text}</p>
               </Link>
               <Link to={navUserBtns[2].link} className="self-center ">
-                <img src={navUserBtns[2].icon} alt="" />
+                <img src={navUserBtns[2].icon} alt=""/>
                 <p>{navUserBtns[2].text}</p>
               </Link>
             </div>

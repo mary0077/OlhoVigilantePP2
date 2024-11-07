@@ -164,7 +164,7 @@ const Register = () => {
 
   return (
     <>
-      <Header />
+      <Header/>
       <main className="flex container justify-center mx-auto mb-8">
         <div>
           <h1 className="text-2xl font-bold text-black  pt-[20px]">

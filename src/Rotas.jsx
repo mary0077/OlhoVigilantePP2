@@ -18,9 +18,9 @@ function Rotas() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route
-          path="login"
+          path="/login"
           element={
             <LoggedInRouting>
               <Login />
@@ -28,26 +28,26 @@ function Rotas() {
           }
         />
         <Route
-          path="cadastro"
+          path="/cadastro"
           element={
             <LoggedInRouting>
-              <Cadastro />
+              <Cadastro/>
             </LoggedInRouting>
           }
         />
-        <Route path="ocorrencia" element={<Ocorrencia />} />
+        <Route path="/ocorrencia" element={<Ocorrencia/>} />
         <Route
-          path="perfil"
+          path="/perfil"
           element={
             <ProtectedRoute>
-              <Perfil />
+              <Perfil/>
             </ProtectedRoute>
           }
         />
-        <Route path="mapdemo" element={<GeoapifyMap />} />
-        <Route path="comunidade" element={<Comunidade />} />
-        <Route path="uploader" element={<DropZone />} />
-        <Route path="*" element={<NotFound />} /> {/* Página 404 */}
+        <Route path="mapdemo" element={<GeoapifyMap/>} />
+        <Route path="comunidade" element={<Comunidade/>} />
+        <Route path="uploader" element={<DropZone/>} />
+        <Route path="*" element={<NotFound/>} /> {/* Página 404 */}
       </Routes>
     </>
   );
